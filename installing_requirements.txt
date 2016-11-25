@@ -1,0 +1,21 @@
+Git
+NodeJS
+Ruby
+
+npm install -g gulp
+npm install -g browserify
+
+workaround with ssl
+$> gem sources --remove https://rubygems.org
+$> gem sources --add http://rubygems.org
+$> gem update --system
+$> gem sources --remove http://rubygems.org
+$> gem sources --add https://rubygems.org
+
+in Ruby cmd
+$> gem update
+$> gem install sass
+$> gem install compass
+
+create packae.json file
+$> npm init
